@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #333; /* Dark background for navbar */
+  padding: 10px; /* Padding for navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Flexbox for horizontal alignment */
+  justify-content: center; /* Center the items */
+}
+
+nav ul li {
+  margin: 0 15px; /* Spacing between items */
+}
+
+nav ul li a {
+  color: white; /* Text color for links */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Font size */
+  transition: color 0.3s; /* Smooth transition for hover */
+  padding: 8px 12px; /* Add padding for clickable area */
+  border-radius: 5px; /* Rounded corners for links */
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Lighten the background on hover */
+}
+
+/* Products Section */
+.products-container {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto; /* Allows horizontal scrolling if necessary */
+  white-space: nowrap; /* Prevents wrapping of product cards */
+  margin: 100px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin-right: 20px; /* Space between cards */
+  display: inline-block; /* Allows horizontal alignment */
+  max-height: 400px; /* Set a maximum height */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.product-card img {
+  width: 150px; /* Limit image width */
+  height: 150px; /* Limit image height */
+  object-fit: cover; /* Ensures the image fits inside the container without stretching */
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+.product-card p {
+  margin: 10px 0;
+  height: 60px; /* Set a fixed height for the description */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+  display: -webkit-box; /* Necessary for line clamping */
+ /* Limit to 3 lines */
+  -webkit-box-orient: vertical; /* Required for line clamping */
+}
+
+.product-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.product-card button:hover {
+  background-color: #218838;
+}
+
+/* Cart Section */
+.cart-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-list li {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-list img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover; /* Ensure the cart images fit the container */
+  border-radius: 5px;
+}
+
+.cart-list button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cart-list button:hover {
+  background-color: #c82333;
+}
+
+.home-container {
+  padding: 30px;
+  background-color: #f9f9f9; /* Light background for a soft look */
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  margin: 20px;
+  text-align: center;
+}
+
+.home-container h1 {
+  color: #2c3e50; /* Dark blue color for the heading */
+  margin-bottom: 15px;
+  font-size: 2.5em; /* Larger font size for the main title */
+  font-weight: bold; /* Bold font weight */
+}
+
+.home-container h2 {
+  color: #34495e; /* Slightly lighter blue for subheadings */
+  margin: 20px 0;
+  font-size: 1.8em; /* Slightly larger font for subheadings */
+}
+
+.home-container p {
+  color: #555; /* Dark gray for body text */
+  line-height: 1.8; /* Increased line height for better readability */
+  font-size: 1.1em; /* Slightly larger font size */
+  margin: 10px 0;
+}
+
+.home-container ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 20px 0; /* Margin above and below the list */
+}
+
+.home-container ul li {
+  margin: 15px 0; /* Space between list items */
+  color: #444; /* Darker text color for list items */
+  font-size: 1.1em; /* Slightly larger font size for list items */
+  position: relative; /* For adding a custom bullet */
+}
+
+.home-container ul li::before {
+  content: '✔️'; /* Custom bullet point */
+  position: absolute; /* Position relative to the list item */
+  left: -20px; /* Position it to the left of the text */
+  color: #28a745; /* Green color for the bullet */
+  font-size: 1.2em; /* Slightly larger size for the bullet */
+}
+
+.home-container h2 {
+  border-bottom: 2px solid #e7e7e7; /* Subtle underline for headings */
+  padding-bottom: 10px; /* Space below the heading */
+}
+
+.home-container a {
+  display: inline-block; /* Make links into buttons */
+  margin-top: 20px; /* Space above the button */
+  padding: 10px 20px; /* Padding inside the button */
+  background-color: #3498db; /* Blue background for buttons */
+  color: white; /* White text */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.home-container a:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+} 
