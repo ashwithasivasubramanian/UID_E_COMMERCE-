@@ -10,6 +10,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
         Responsive Design: Optimized for various screen sizes, including mobile, tablet, and desktop views.
         Cart Management: Allows users to manage their cart and see added items.
 # Output
+        
+    ![image](https://github.com/user-attachments/assets/224b5f0d-0fdd-4854-9115-5973e844044e)
+    ![image](https://github.com/user-attachments/assets/3daa96fc-1ea6-4d6f-b991-550ab161f9f4)
+    ![image](https://github.com/user-attachments/assets/c8737886-166b-4942-84ff-a0eedd2f0b54)
+
 
 
 ## Available Scripts
