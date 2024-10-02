@@ -1,6 +1,16 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+    This is a simple e-commerce application built using ReactJS.
+    The application allows users to browse a selection of products, view details, and add them to the cart. 
+    Product Listing: Displays a list of available products with details like name, image, description, and price.
+        Add to Cart: Users can add products to the cart, with a success message displayed upon adding.
+        Routing: Implemented navigation using React Router for seamless transitions between different views.
+        Responsive Design: Optimized for various screen sizes, including mobile, tablet, and desktop views.
+        Cart Management: Allows users to manage their cart and see added items.
+# Output
+
 
 ## Available Scripts
 
