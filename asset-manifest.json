@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UID_E_COMMERCE-/static/css/main.efbab06b.css",
+    "main.js": "/UID_E_COMMERCE-/static/js/main.33a227b7.js",
+    "static/js/453.f6199abb.chunk.js": "/UID_E_COMMERCE-/static/js/453.f6199abb.chunk.js",
+    "index.html": "/UID_E_COMMERCE-/index.html",
+    "main.efbab06b.css.map": "/UID_E_COMMERCE-/static/css/main.efbab06b.css.map",
+    "main.33a227b7.js.map": "/UID_E_COMMERCE-/static/js/main.33a227b7.js.map",
+    "453.f6199abb.chunk.js.map": "/UID_E_COMMERCE-/static/js/453.f6199abb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efbab06b.css",
+    "static/js/main.33a227b7.js"
+  ]
+}
