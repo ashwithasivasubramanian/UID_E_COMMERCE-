@@ -11,6 +11,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
         Cart Management: Allows users to manage their cart and see added items.
 # Output
         
+![image](https://github.com/user-attachments/assets/926fbddf-c95f-45b6-9cd0-ab9460d45ed3)
+![image](https://github.com/user-attachments/assets/8583f7c7-e21b-419b-9339-3f78f07f1a76)
+![image](https://github.com/user-attachments/assets/74315967-3145-4520-905b-8ca738ae2fc4)
 
 
 
